@@ -2,9 +2,8 @@
 
 **Course:** AID843 Spatio-Temporal Data Analytics-I, Term 2 (2025-26)  
 **Institute:** IIIT Bangalore  
-**Submission Deadline:** Feb 16, 2026
 
----
+
 
 ## Overview
 
@@ -12,34 +11,29 @@ This repository contains the code and report for Assignment 1 of AID843. The ass
 
 The dataset is sourced from: https://www.kaggle.com/datasets/aleespinosa/soccer-match-event-dataset
 
----
 
 ## Team
 
-- [Member 1 Name] — IMT20XXXXX
-- [Member 2 Name] — IMT20XXXXX
-- [Member 3 Name] — IMT20XXXXX
+- [R.Sreenivasa Raju] — IMT2023122
+- [U.Trivedh Venkata Sai] — IMT2023002
+- [A.Rajdeep] — IMT2023592
 
----
 
 ## Repository Structure
 
-```
-.
-├── a1_england_complete.ipynb     # Full spatial analysis pipeline for England
-├── A1_all_leagues.ipynb          # Cross-league analysis (Spain, Italy, Germany, France)
-├── report/
-│   └── soccer_spatial_report.tex # IEEE format LaTeX report
-└── README.md
-```
 
----
+.
+├── A1_England.ipynb           # Full spatial analysis pipeline for England
+├── A1_Top4_Leagues.ipynb      # Cross-league analysis (Spain, Italy, Germany, France)
+├── report
+└── README.md
+
 
 ## Dataset
 
 The Soccer Match Event Dataset contains on-pitch event records (passes, shots, duels, fouls, etc.) from five European leagues. Spatial coordinates are normalised to a 0-100 scale on both axes, representing percentage of pitch length and width.
 
-The analysis focuses on **shot events** as the primary spatial variable. The dataset files required to run the notebooks are:
+The analysis focuses on **shot events** as the primary spatial variable for comparision of top four leagues and analyzed all on-pitch event records for England League(Premier League) . The dataset files required to run the notebooks are:
 
 - events_England.csv
 - events_Spain.csv
@@ -48,8 +42,6 @@ The analysis focuses on **shot events** as the primary spatial variable. The dat
 - events_France.csv
 
 These files are not included in the repository due to size. Download them from the Kaggle link above and place them in the root directory before running the notebooks.
-
----
 
 ## Analysis Summary
 
@@ -74,7 +66,6 @@ These files are not included in the repository due to size. Download them from t
 - Residual Moran's I diagnostics
 - Geographically Weighted Regression (GWR) case study on Spain
 
----
 
 ## Key Results
 
@@ -88,11 +79,10 @@ These files are not included in the repository due to size. Download them from t
 
 All leagues show statistically significant positive spatial autocorrelation in shot placement. Italy and Spain exhibit the strongest clustering, consistent with their structured positional playing styles.
 
----
+
 
 ## Requirements
 
-```
 pandas
 geopandas
 numpy
@@ -105,7 +95,7 @@ spreg
 mgwr
 scikit-learn
 shapely
-```
+
 
 Install with:
 

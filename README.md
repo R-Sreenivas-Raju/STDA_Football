@@ -21,12 +21,14 @@ The dataset is sourced from: https://www.kaggle.com/datasets/aleespinosa/soccer-
 
 ## Repository Structure
 
-
+```
 .
-├── A1_England.ipynb           # Full spatial analysis pipeline for England
-├── A1_Top4_Leagues.ipynb      # Cross-league analysis (Spain, Italy, Germany, France)
-├── report
+├── A1_England.ipynb            # Full spatial analysis pipeline for England
+├── A1_Top4_Leagues.ipynb       # Cross-league analysis (Spain, Italy, Germany, France)
+├── report                      # Final IEEE report (PDF + figures)
 └── README.md
+```
+
 
 
 ## Dataset

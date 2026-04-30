@@ -40,14 +40,17 @@ events_European_Championship.csv  matches_European_Championship.csv
 
 ```
 .
-├── A1_England.ipynb              # Assignment 1 – England spatial analysis pipeline
-├── A1_Top4_Leagues.ipynb         # Assignment 1 – Cross-league spatial comparison
-├── a2_topfive_leagues.ipynb      # Assignment 2 – Temporal analysis (5 leagues + World Cup)
-├── a2_tournaments.ipynb          # Assignment 2 – Temporal analysis (World Cup vs Euro 2016)
-├── Assignment3.ipynb             # Assignment 3 – Spatio-Temporal ML & Data Mining
-├── Assignment1_Report.pdf        # Assignment 1 final report (IEEE format)
-├── Assignment2_report.pdf        # Assignment 2 final report
-├── Assignment3_Report.pdf        # Assignment 3 final report
+├── Assignment1/
+│   ├── A1_England.ipynb              # England spatial analysis pipeline
+│   ├── A1_Top4_Leagues.ipynb         # Cross-league spatial comparison (Spain, Italy, Germany, France)
+│   └── Assignment1_Report.pdf        # Final report (IEEE format)
+├── Assignment2/
+│   ├── a2_topfive_leagues.ipynb      # Temporal analysis – 5 leagues + World Cup
+│   ├── a2_tournaments.ipynb          # Temporal analysis – World Cup vs Euro 2016
+│   └── Assignment2_report.pdf        # Final report
+├── Assignment3/
+│   ├── Assignment3.ipynb             # Spatio-Temporal ML & Data Mining
+│   └── Assignment3_Report.pdf        # Final report
 └── README.md
 ```
 
@@ -291,6 +294,6 @@ All three reports follow IEEE two-column conference format.
 
 | Assignment | Report File |
 |------------|-------------|
-| Assignment 1 | `Assignment1_Report.pdf` |
-| Assignment 2 | `Assignment2_Report.pdf` |
-| Assignment 3 | `Assignment3_Report.pdf` |
+| Assignment 1 | `Assignment1/Assignment1_Report.pdf` |
+| Assignment 2 | `Assignment2/Assignment2_report.pdf` |
+| Assignment 3 | `Assignment3/Assignment3_Report.pdf` |

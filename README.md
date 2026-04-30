@@ -83,16 +83,6 @@ Exploratory spatial data analysis on the full event dataset, using shot events a
 - Residual Moran's I diagnostics
 - Geographically Weighted Regression (GWR) case study on Spain
 
-### Key Results
-
-| League  | Moran's I | p-value | GWR R² |
-|---------|-----------|---------|--------|
-| England | 0.116     | 0.015   | –      |
-| Spain   | 0.325     | 0.001   | 0.414  |
-| Italy   | 0.391     | 0.001   | –      |
-| Germany | 0.195     | 0.002   | –      |
-| France  | 0.125     | 0.025   | –      |
-
 All leagues show statistically significant positive spatial autocorrelation in shot placement. Italy and Spain exhibit the strongest clustering, consistent with their structured positional playing styles.
 
 ---

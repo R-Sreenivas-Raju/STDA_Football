@@ -212,7 +212,7 @@ Zone-level co-occurrence measured by:
 - Pearson correlation (baseline)
 - Collocation Quotient CQ(A,B) = P(A∩B)/(P(A)·P(B)) — values > 1 indicate co-location beyond chance
 - Jaccard similarity |A∩B|/|A∪B|
-Cross-league Shot–Pass CQ comparison included.
+Cross-league Shot–Pass CQ comparison included
 
 **7E – Spatio-Temporal K-Means**  
 K-Means on 3D feature space (x, y, match_minute) to identify spatial zones that are active at different phases of the match. Cluster centres decoded to pitch zone (Defensive/Midfield/Attacking) and match half; visualised as 2D scatter (minute colour-coded) and 3D scatter.

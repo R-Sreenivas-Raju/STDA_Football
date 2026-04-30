@@ -46,7 +46,7 @@ events_European_Championship.csv  matches_European_Championship.csv
 ├── a2_tournaments.ipynb          # Assignment 2 – Temporal analysis (World Cup vs Euro 2016)
 ├── Assignment3.ipynb             # Assignment 3 – Spatio-Temporal ML & Data Mining
 ├── Assignment1_Report.pdf        # Assignment 1 final report (IEEE format)
-├── Assignment2_report (1).pdf    # Assignment 2 final report
+├── Assignment2_report.pdf        # Assignment 2 final report
 ├── Assignment3_Report.pdf        # Assignment 3 final report
 └── README.md
 ```
@@ -283,8 +283,6 @@ Install with:
 pip install pandas geopandas numpy matplotlib seaborn scipy libpysal esda spreg mgwr scikit-learn shapely statsmodels pmdarima mlxtend prefixspan
 ```
 
-> **Note:** `mlxtend` and `prefixspan` are installed programmatically at the top of `Assignment3.ipynb` via `subprocess` if not already present.
-
 ---
 
 ## Reports
@@ -294,5 +292,5 @@ All three reports follow IEEE two-column conference format.
 | Assignment | Report File |
 |------------|-------------|
 | Assignment 1 | `Assignment1_Report.pdf` |
-| Assignment 2 | `Assignment2_report (1).pdf` |
+| Assignment 2 | `Assignment2_Report.pdf` |
 | Assignment 3 | `Assignment3_Report.pdf` |
